@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Extensions">
+      <HintPath>/opt/renode/bin/Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Emulator">
+      <HintPath>/opt/renode/bin/Emulator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
